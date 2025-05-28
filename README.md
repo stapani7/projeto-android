@@ -40,7 +40,7 @@ A página foi desenvolvida para se adaptar a diferentes tamanhos de tela (deskto
 
 ## 📸 Screenshot
 
-![Preview do Projeto](img/screenshot.png)
+![Preview do Projeto](img/screenshot.png.png)
 
 ---
 
