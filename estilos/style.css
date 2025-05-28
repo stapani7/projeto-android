@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'WorkSans';
-    src: url('fontes/WorkforceSans_PERSONAL_USE_ONLY.otf') format('opentype');    
+    src: url('../fontes/WorkforceSans_PERSONAL_USE_ONLY.otf') format('opentype');    
 }
 @font-face {
     font-family: 'iDroid';
