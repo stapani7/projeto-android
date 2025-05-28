@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fontes/WorkforceSans_PERSONAL_USE_ONLY.otf') format('opentype');    
+}
+@font-face {
+    font-family: 'iDroid';
+    src: url('fontes/IDroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    background-color: rgb(156, 238, 177);
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0px;
+    background-image: linear-gradient(to top, #1A5C38, #3DDB84); 
+    color: white;
+    text-align: center;
+    height: 250px;
+    box-shadow: 0px 2px 7px 1px black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+
+header > h1 {
+    font-weight: lighter;
+    font-family: 'WorkSans';
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+header > p {
+    margin: 0;
+    padding: 20px;
+}
+
+.caminhos {
+    text-align: left;
+}
+
+.caminhos > a {
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1000px;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 7px 1px black;
+}
+
+h1 {
+    font-family: 'iDroid';
+    color: rgb(0, 68, 0);
+    margin: 0;
+}
+
+h1#titulo {
+    padding-top: 20px;
+}
+
+.texto {
+    background-image: linear-gradient(to right, rgb(144, 238, 144), white 80%);
+    color: rgb(0, 68, 0);
+    font-family: 'iDroid';
+}
+
+p::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0";
+  }
+
+a {
+    color: #0D461F;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6ddb9b;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #c0ffda;
+    text-decoration: underline;
+}
+
+.marcador {
+    color: rgb(0, 68, 0);
+}
+
+div#video {
+    background-color: rgb(0, 68, 0);
+    height: 720px;
+}
+
+#video {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #video iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  div#extra {
+    background-color: rgb(180, 255, 180);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  div#extra > h2 {
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-color: #0D461F;
+    color: white;
+    text-align: center;
+  }
+
+  footer > p {
+    margin: 30px 0px 0px 0px;
+    font-style: italic;
+  }
+
+  .ident {
+    font-weight: bolder;
+  }
