@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'iDroid';
-    src: url('fontes/IDroid.otf') format('opentype');
+    src: url('../fontes/IDroid.otf') format('opentype');
 }
 
 body {
