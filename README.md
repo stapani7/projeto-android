@@ -38,14 +38,13 @@ A página foi desenvolvida para se adaptar a diferentes tamanhos de tela (deskto
 
 ---
 
-## 📸 Screenshot
+## 📸 Prévia do Projeto
 
 ![Preview do Projeto](img/screenshot.png.png)
 
 ---
 
-## 🔗 Link de Visualização
-
+## 🔗 Link do Projeto para Visualização
 
 [🔗 Acesse o Projeto Online](https://stapani7.github.io/projeto-android)
 
